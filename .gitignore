@@ -1,0 +1,20 @@
+# โฟลเดอร์เก็บไลบรารี ห้ามนำขึ้นเด็ดขาดเพราะมีขนาดใหญ่มาก
+node_modules/
+
+# ไฟล์เก็บความลับ เช่น รหัสผ่าน, MONGO_URI, PORT, Secret Key
+.env
+.env.local
+.env.*.local
+
+# ไฟล์ Log ต่างๆ ของ npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# การตั้งค่าของระบบปฏิบัติการ (ขยะของระบบ)
+.DS_Store
+Thumbs.db
+
+# โฟลเดอร์การตั้งค่าของ IDE / Editor (ไม่จำเป็นต้องขึ้น Git)
+.vscode/
+.idea/
